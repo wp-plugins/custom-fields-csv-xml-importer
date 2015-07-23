@@ -1,5 +1,5 @@
 === Import and Update CSV XML Data into Pods Custom Fields ===
-Contributors: VisualData, soflyy, wpallimport
+Contributors: VisualData
 Donate link: http://vipp.com.au/
 Tags: custom fields, custom fields import, wp all import, csv import, pods csv import, xml import, pods csv import, pods custom content types and fields, pods, relationship fields, custom post types, website migration,  data feed, data import, data update, automatic 
 License: GPLv2 or later
@@ -56,7 +56,7 @@ The PODS Add-On for WP All Import is compatible with PODS (free) and [the free v
 
 The PODS Add-On for WP All Import free edition detects and handles importing to pages, posts extended by pods and new custom post types created with pods. It doesn't handle other content types, such as Advanced Content Types, users or comments extended by PODS.
 
-The PODS Add-on for WP All Import Professional Edition adds the following features:
+[The PODS Add-on for WP All Import Professional Edition ](https://vipp.com.au/) adds the following features:
 
 * Handle importing of other pods content types including Advanced Custom Types, Comments and Users extended with PODS, in addition to pages, posts and custom post types.
 
@@ -70,6 +70,8 @@ The PODS Add-on for WP All Import Professional Edition adds the following featur
 
 * Customisation of the add-on to suit your unique data importing and updating needs.
 
+[Upgrade to Professional Edition](https://vipp.com.au/) to access these premium features.
+
 
 You may also consider upgrading to [the professional edition of WP All Import](http://www.wpallimport.com/order-now/) for premium support and the following extra features:
 
@@ -82,7 +84,7 @@ You may also consider upgrading to [the professional edition of WP All Import](h
 * Access to premium technical support.
 
 
-
+Special thanks to soflyy, wpallimport who have developed WP All Import and made the add-on API available.
 
 
 
@@ -99,9 +101,17 @@ To install the PODS Add-On for WP All Import, either:
 
 * Unzip custom-fields-csv-xml-importer.zip and upload the contents to /wp-content/plugins/, and then activate the plugin from the Plugins page in WordPress.
 
-The PODS Add-On will appear in the Step 3 of WP All Import.
+The PODS Add-On will appear in Step 3 of WP All Import. See screenshots for details.
+
+[Upgrade to Professional Edition](https://vipp.com.au/) to access premium features, and priority support.
+
+
 
 == Frequently Asked Questions ==
+
+= I installed and activated this plugin, but can’t find out any menu =
+
+The add-on needs WP All Import and Pods to work. First verify these two plugins are installed and activated. Create a new import under the menu of All Import, upload a test cvs or xml file, then in step 3, you will see custom fields created with Pods. 
 
 = I can import some pods, but have issues importing others. the process is killed by the server =
 
@@ -126,6 +136,10 @@ Please check the custom defined list in your relationship field. The value suppl
 PODS Add-on for WP All Import free edition detects and lists all your pods content types however it supports importing and updating of post types only, including new custom post types created with pods, and posts/pages extended with pods. 
 
 Please consider upgrading to [PODS Add-on for WP All Import Pro](http://www.vipp.com.au) to import other content types (including Advanced Custom Types and extended Users). 
+
+= My csv file has many rows, but only the header row is detected  =
+
+This is probably caused by improperly formatted csv files, such as the files saved by Microsoft Excel. You may try to open the csv files using another spreadsheet program such as the free OpenOffice, save as another CSV file and see whether the problem is resolved.
 
 
 == Changelog ==
