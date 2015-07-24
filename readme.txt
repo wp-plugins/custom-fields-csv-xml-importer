@@ -1,35 +1,48 @@
-=== Import and Update CSV XML Data into Pods Custom Fields ===
+=== CIO Bulk Importer ===
 Contributors: VisualData
 Donate link: http://vipp.com.au/
-Tags: custom fields, custom fields import, wp all import, csv import, pods csv import, xml import, pods csv import, pods custom content types and fields, pods, relationship fields, custom post types, website migration,  data feed, data import, data update, automatic 
+Tags: custom fields, custom fields import, wp all import, csv import, pods csv import, xml import, pods xml import, pods custom content types and fields, pods, relationship fields, bi-directional relationship fields, multiple select relationship fields, multiple select bi-directional relationship fields, custom post types, CMS migration, website migration, website update, data feed, data import, data update, automatic update, cron import, automatic import,bulk import, bulk edit, fast import, quick import
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires at least: 4.1.0
 Tested up to: 4.2.2
 Stable tag: 1.0.0
 
-Simple, easy and fast, PODS Add-On for WP All Import imports data from any XML or CSV file to custom fields created with PODS.
+Simple, easy, fast and flexible, CIO Bulk Importer processes large data sets from any XML or CSV files to enable efficient update of websites and databases.
 
 == Description ==
 
-[Pods](https://wordpress.org/plugins/pods/) is a simple and powerful framework to extend content types or create custom content types and fields for high performance with large data sets. The PODS Add-On for [WP All Import](http://wordpress.org/plugins/wp-all-import "WordPress XML & CSV Import") makes it easy and fast to bulk import your data from any CSV or XML files to custom fields created with [Pods - Custom Content Types and Fields ](https://wordpress.org/plugins/pods/).
-Together with Pods and WP All Import, this add-on provides a simple and easy way to build a high performance website, import large data sets and manage ongoing updates from external data sources.  
+Are you planning a new website with many records to update, or have you got a good looking website but spent too much time keeping the content accurate and updated? CIO Bulk Importer is part of the efficient solution to improve work flow and make website updating simple and easy.
+
+CIO Bulk Importer is an add-on linking the following two powerful tools together in delivering an efficient and affordable solution for small and medium businesses.
+
+1. [PODS](https://wordpress.org/plugins/pods/). PODS is a free, simple, flexible and powerful CMS framework designed for high performance with large data sets. You can use PODS to extend content types with custom fields, or create custom content types of your own. PODS unleashes the power of Wordpress in creating highly customised CMS. 
+
+2. [WP All Import](http://wordpress.org/plugins/wp-all-import "WordPress XML & CSV Import”). WP All Import is a well developed tool to handle imports from larger XML and CSV files. The free version comes with logging, detection of duplicate records, and templates for future imports and updates.  
+
+Together with Pods and WP All Import, CIO Bulk Importer provides a simple and easy way to build a high performance website, import large data sets and manage ongoing updates from external data sources.  
+
+Accurate and timely website information is crucial to some professions, such as property developers and real estate agents. Mistakes are costly. With CIO Bulk Importer, the principal or person in charge can review information before uploading to the website reducing chances of errors. 
 
 
-This add-on automatically detects all your custom fields created with PODS and display them in step 3 of WP All Import. 
+== How Does It Work ==
+
+
+CIO Bulk Importer automatically detects all your custom fields created with PODS and display them in step 3 of WP All Import. 
 
 The left side shows all of the custom fields that you can import to and the right side displays the data from your XML/CSV file. Then you can simply drag & drop the data from your XML or CSV into the PODS custom fields to import them. 
 
 The CSV or XML can be in any order under any column header, and big files are broken into small chunks to allow importing to shared hosting sites, thanks to the great work by the WP ALL Import team. 
 
-This is a handy tool for people migrating big volume of data from other sources to PODS websites, or regularly importing and updating data on PODS websites, such as real estate property listing websites, or book keeping websites. Simply create custom content types and fields using PODS for fast development and performance, export data to CSV or XML from your data sources, and import into PODS custom fields with ease. 
+CIO Bulk Importer is a handy tool for people migrating big volume of data from other sources to PODS websites, or regularly importing and updating data on PODS websites, such as real estate property listing websites, or book keeping websites. Simply create custom content types and fields using PODS for fast development and performance, export data to CSV or XML from your data sources or receive from suppliers/clients/partners, and import into PODS custom fields with ease. 
 
 
-The add-on was used on a shared hosting website created with PODS to import 25,000 records in one go successfully.  
+CIO Bulk Importer was used on a shared hosting website created with PODS to import 25,000 records in one go successfully.  
 
-The add-on needs both WP All Import and PODS plugins installed and activated in order to work. Both WP All Import and PODS are freely available.
+CIO Bulk Importer needs both WP All Import and PODS plugins installed and activated in order to work. Both WP All Import and PODS are freely available in the plugin repository.
 
-= Why you should use the PODS Add-On for WP All Import =
+= Why you should use the CIO Bulk Importer =
+
 
 * Simple, easy and fast tool to migrate data or regularly import/update data to PODS websites. 
 
@@ -49,14 +62,15 @@ The add-on needs both WP All Import and PODS plugins installed and activated in 
 
 * Compatible with other WP All Import add-ons.
 
-The PODS Add-On for WP All Import is compatible with PODS (free) and [the free version of WP All Import](http://wordpress.org/plugins/wp-all-import "WordPress XML & CSV Import"). It can be used along other add-ons for WP All Import.
+The CIO Bulk Importer is compatible with PODS (free) and [the free version of WP All Import](http://wordpress.org/plugins/wp-all-import "WordPress XML & CSV Import"). It can be used along other add-ons for WP All Import.
 
 
-= PODS Add-on for WP All Import Professional Edition =
+= CIO Bulk Importer Professional Edition =
 
-The PODS Add-On for WP All Import free edition detects and handles importing to pages, posts extended by pods and new custom post types created with pods. It doesn't handle other content types, such as Advanced Content Types, users or comments extended by PODS.
 
-[The PODS Add-on for WP All Import Professional Edition ](https://vipp.com.au/) adds the following features:
+The CIO Bulk Importer free edition detects and handles importing to pages, posts extended by pods and new custom post types created with pods. It doesn't handle other content types, such as Advanced Content Types, users or comments extended by PODS.
+
+[The CIO Bulk Importer Professional Edition ](https://vipp.com.au/) adds the following features:
 
 * Handle importing of other pods content types including Advanced Custom Types, Comments and Users extended with PODS, in addition to pages, posts and custom post types.
 
@@ -93,9 +107,9 @@ Special thanks to soflyy, wpallimport who have developed WP All Import and made 
 First, install and activate [WP All Import](http://wordpress.org/plugins/wp-all-import "WordPress XML & CSV Import") and [Pods - Custom Content Types and Fields ](https://wordpress.org/plugins/pods/).
 If there are issues installing these two plugins, please look for solutions in the support forum or contact the plugin authors.
 
-Then install the PODS Add-On for WP All Import. This add-on needs both PODS and WP All Import installed and activated.
+Then install the CIO Bulk Importer. This add-on needs both PODS and WP All Import installed and activated.
 
-To install the PODS Add-On for WP All Import, either:
+To install the CIO Bulk Importer, either:
 
 * Upload the plugin from the Plugins page in WordPress
 
@@ -121,7 +135,7 @@ Possible causes - please check pods fields settings. Mandatory pods fields must 
 
 Possible causes 1 - custom field names shared among pods.
 
-The PODS add-on for WP All Import detects and lists ALL your custom fields created with PODS in one form in step 3 of the import process, even though you are importing ONE pods content type at a time. The custom fields are grouped by pods labels.
+The CIO Bulk Importer detects and lists ALL your custom fields created with PODS in one form in step 3 of the import process, even though you are importing ONE pods content type at a time. The custom fields are grouped by pods labels.
 
 If a field name is used in multiple pods, multiple input cells will be generated in the form with the same field name, and only the value of the last input cells (possibly blank by default) will be saved. 
 
@@ -133,13 +147,13 @@ Please check the custom defined list in your relationship field. The value suppl
 
 = I can see a pods content type but can't import data to the pod =
 
-PODS Add-on for WP All Import free edition detects and lists all your pods content types however it supports importing and updating of post types only, including new custom post types created with pods, and posts/pages extended with pods. 
+CIO Bulk Importer free edition detects and lists all your pods content types however it supports importing and updating of post types only, including new custom post types created with pods, and posts/pages extended with pods. 
 
-Please consider upgrading to [PODS Add-on for WP All Import Pro](http://www.vipp.com.au) to import other content types (including Advanced Custom Types and extended Users). 
+Please consider upgrading to [CIO Bulk Importer Pro](http://www.vipp.com.au) to import other content types (including Advanced Custom Types and extended Users). 
 
 = My csv file has many rows, but only the header row is detected  =
 
-This is probably caused by improperly formatted csv files, such as the files saved by Microsoft Excel. You may try to open the csv files using another spreadsheet program such as the free OpenOffice, save as another CSV file and see whether the problem is resolved.
+This is probably caused by improperly formatted csv files, such as the CSV files saved by Microsoft Excel. You may try to open the csv files using another spreadsheet program such as the free OpenOffice or LibreOffice, save as a new CSV file and see whether the problem is resolved.
 
 
 == Changelog ==
@@ -159,7 +173,7 @@ This add-on has been developed and tested on wordpress 4.2.2 with pods 2.5.3 and
 
 2. Choose your content types to import
 
-3. Drag and Drop your data fields from the xml or cvs file. A few clicks, Done!
+3. Drag and Drop your data fields from the xml or cvs file. A few clicks, have a cuppa. Done!
 
 
 
@@ -170,4 +184,4 @@ We do try to handle support for our free version users at the following e-mail a
 
 E-mail: support@vipp.com.au
 
-Support for free version customers is not guaranteed and based on availability. For premium support, please purchase [PODS Add-on for WP All Import Pro](http://www.vipp.com.au).
+Support for free version customers is not guaranteed and based on availability. For premium support, please purchase [CIO Bulk Importer Pro](http://www.vipp.com.au).
