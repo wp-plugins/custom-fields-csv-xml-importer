@@ -25,7 +25,7 @@ Together with Pods and WP All Import, CIO Bulk Importer provides a simple and ea
 Accurate and timely website information is crucial to some professions, such as property developers and real estate agents. Mistakes are costly. With CIO Bulk Importer, the principal or person in charge can review information before uploading to the website reducing chances of errors. 
 
 
-== How Does It Work ==
+How Does It Work
 
 
 CIO Bulk Importer automatically detects all your custom fields created with PODS and display them in step 3 of WP All Import. 
@@ -40,6 +40,7 @@ CIO Bulk Importer is a handy tool for people migrating big volume of data from o
 CIO Bulk Importer was used on a shared hosting website created with PODS to import 25,000 records in one go successfully.  
 
 CIO Bulk Importer needs both WP All Import and PODS plugins installed and activated in order to work. Both WP All Import and PODS are freely available in the plugin repository.
+
 
 = Why you should use the CIO Bulk Importer =
 
