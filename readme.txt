@@ -18,7 +18,7 @@ CIO Bulk Importer is an add-on linking the following two powerful tools together
 
 1. [PODS](https://wordpress.org/plugins/pods/). PODS is a free, simple, flexible and powerful CMS framework designed for high performance with large data sets. You can use PODS to extend content types with custom fields, or create custom content types of your own. PODS unleashes the power of Wordpress in creating highly customised CMS. 
 
-2. [WP All Import](http://wordpress.org/plugins/wp-all-import "WordPress XML & CSV Import”). WP All Import is a well developed tool to handle imports from larger XML and CSV files. The free version comes with logging, detection of duplicate records, and templates for future imports and updates.  
+2. [WP All Import](http://wordpress.org/plugins/wp-all-import/). WP All Import is a well developed tool to handle imports from larger XML and CSV files. The free version comes with logging, detection of duplicate records, and templates for future imports and updates.  
 
 Together with Pods and WP All Import, CIO Bulk Importer provides a simple and easy way to build a high performance website, import large data sets and manage ongoing updates from external data sources.  
 
