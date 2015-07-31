@@ -181,9 +181,13 @@ Absolutely, and even better, for free. CIO Custom Fields Importer Professional E
 
 Please note we only provide support to customers who have paid a fee to us. If you use it on your clients' website, you will need to provide support to them. We try to help if we have time and resources available but we prioritise on supporting fee-paying customers. 
 
-= I am using a plugin to create custom fields. Will your plugin support these custom fields =
+= I am using a plugin to create custom tables and fields. Will your plugin support these custom fields =
 
-The 
+The free version of CIO Custom Fields Import only supports custom fields created with PODS. 
+
+The professional version supports custom fields created with most plugins as long as the custom fields are registered in Wordpress. 
+
+If the plugin you are using creates its own tables and is not a registered wordpress content type, we can write custom code and use the native API of your plugin to process imported data. A development fee may be applicable depending on complexity of the task.
 
 
 = I installed and activated this plugin, but can’t find out any menu =
