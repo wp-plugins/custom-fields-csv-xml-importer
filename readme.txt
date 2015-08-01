@@ -22,12 +22,12 @@ CIO Custom Fields Importer is part of the solution you are looking for. It is po
 
 CIO Custom Fields Importer is an add-on plugin linking the following two powerful tools together in delivering an efficient and affordable high performance solution for small and medium businesses.
 
-1. [PODS](https://wordpress.org/plugins/pods/). PODS is a free, simple, flexible and powerful CMS framework designed for high performance with large data sets. You can use PODS to extend content types with custom fields, or create custom content types of your own. PODS unleashes the power of Wordpress in creating highly customised and optimised CMS. 
+* [PODS](https://wordpress.org/plugins/pods/). PODS is a free, simple, flexible and powerful CMS framework designed for high performance with large data sets. You can use PODS to extend content types with custom fields, or create custom content types of your own. PODS unleashes the power of Wordpress in creating highly customised and optimised CMS. 
 
 One of the distinct features of PODS is multiple select bi-directional relationship. Suppose you have two custom post types ("author" and "book"), with some books written by a few authors together. You set up multiple select bi-directional field, and in the "book" custom post type you update authors. When you open the "author" custom posts of each author, the books written by the author are automatically displayed. This feature is cool, isn't it? Especially this is done using a graphical user interface to set up fields and templates without any programming, even by people without programming experience.
 
 
-2. [WP All Import](http://wordpress.org/plugins/wp-all-import/). WP All Import is a well developed tool to handle imports from larger XML and CSV files. The free version of WP All Import comes with logging, detection of duplicate records, and templates for future imports and updates, and allows you to import to standard Wordpress fields (title, content, slug, categories etc). 
+* [WP All Import](http://wordpress.org/plugins/wp-all-import/). WP All Import is a well developed tool to handle imports from larger XML and CSV files. The free version of WP All Import comes with logging, detection of duplicate records, and templates for future imports and updates, and allows you to import to standard Wordpress fields (title, content, slug, categories etc). 
 
 The free version of CIO Custom Fields Importer allows you to import to custom fields in custom posts created or extended with PODS. The pro version of CIO Custom Fields Importer enables you to import to all PODS content types (including PODS advanced content types), and content types (objects) created with other plugins, such as 
 
@@ -255,11 +255,31 @@ This add-on has been developed and tested on wordpress 4.2.2 with pods 2.5.3 and
 
 == Screenshots == 
 
-1. In step 3 of WP All Import importing process, PODS custom content types are detected and listed. 
+1. Ater installing and activating WP All Import, PODS and CIO Custom Fields Importer Add-on, you will see the menus of PODS and WP All Import. Click on new import, and upload your csv or xml file.
 
-2. Choose your content types to import
 
-3. Drag and Drop your data fields from the xml or cvs file. A few clicks, have a cuppa. Done!
+2. In step 3 of WP All Import importing process, PODS custom content types are detected and listed. 
+
+
+3. Drag and Drop your source data fields from the xml or cvs file to the custom fields to import. Your source data fields can use any name, in any order.
+
+4. Specify field to check for duplicate records. (WP All Import feature)
+
+5. Import complete. check log for more information, or run the import again to update (WP All Import feature).
+
+6. Import users (for example WooCommerce customers, premium features of CIO Custom Fields Importer professional edition)
+
+7. Import user (or WooCommerce customer) existing passwords and meta fields such as shipping and billing addresses (premium features of CIO Custom Fields Importer professional edition)
+
+8. Unique field and value to check and prevent duplicate records. If record exists, CIO Custom Fields Importer will update the record rather than creating new records.
+
+9. Importing Pods Advanced Content Type (ACT). (premium features of CIO Custom Fields Importer professional edition)
+
+10. For this example, music record is created as an advanced content type. (premium features of CIO Custom Fields Importer professional edition)
+
+11. Automatically matching records by specifying field name and value. Multiple select and bidirectional relationships are supported. (premium features of CIO Custom Fields Importer professional edition). This feature is useful if you frequently receive hundreds, thousands or more changing records to add to your website. The number of records on your website is growing. You need to import to your running website automatically, but don't always know the item ID, or you want to save time looking for item ids manually.
+
+12. Relationships can also be given here if you know the item ids. Multiple select and bidirectional relationships are supported. This feature is useful if you frequently receive updates to existing records. The number of records in your website does not change frequently, and you only need to update some fields. (premium features of CIO Custom Fields Importer professional edition)
 
 
 
